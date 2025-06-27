@@ -22,7 +22,7 @@ const getPageTitle = (pathname: string) => {
 const TerminalLayout = ({ children }: { children: ReactNode }) => {
     const pathname = usePathname();
     return (
-        <div className="h-screen bg-[#0d1117] flex flex-col p-2">
+        <div className="h-screen bg-[#1a1b26] flex flex-col p-2">
             <div className="border [border-color:#30363d] [background-image:linear-gradient(135deg,_#0d1117_0%,_#161b22_100%)]  rounded-lg overflow-hidden max-w-7xl mx-auto flex-1 flex flex-col m-4  w-full">
                 {/* Terminal Header */}
                 <div className="bg-[#21262d] border-b [border-color:#30363d] px-4 py-3 flex items-center justify-between ">

@@ -1,5 +1,7 @@
 import Link from "next/link";
 import TypewriterText from "./components/TypewriterText/TypewriterText";
+import ProjectCard from "./components/Card/ProjectCard";
+import { Github } from "lucide-react";
 
 export default function Home() {
     return (
@@ -23,6 +25,29 @@ export default function Home() {
                     className="text-[#c9d1d9] text-lg"
                 />
             </div>
+            <div className="flex space-x-4 mb-12">
+                <a
+                    href="#"
+                    className="skill-badge-blue px-4 py-2 rounded-lg text-sm inline-flex items-center space-x-2 hover:opacity-80 transition-opacity"
+                >
+                    <Github size={16} />
+                    <span>GitHub</span>
+                </a>
+                <a
+                    href="#"
+                    className="skill-badge-blue px-4 py-2 rounded-lg text-sm inline-flex items-center space-x-2 hover:opacity-80 transition-opacity"
+                >
+                    <span>🔗</span>
+                    <span>LinkedIn</span>
+                </a>
+                <a
+                    href="#"
+                    className="skill-badge-blue px-4 py-2 rounded-lg text-sm inline-flex items-center space-x-2 hover:opacity-80 transition-opacity"
+                >
+                    <span>📺</span>
+                    <span>YouTube</span>
+                </a>
+            </div>
             <div className="mb-12">
                 <div className="text-[#8b949e] mb-2 text-sm">
                     $ cat hello.txt
@@ -44,7 +69,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {links.map((cmd) => (
                         <Link href={cmd.url} key={cmd.url}>
-                            <div className="bg-[#161b22] border [border-color:#30363d]  p-4 rounded-lg text-left hover:cursor-pointer hover:[border-color:#58a6ff] hover:-translate-y-0.5 group transition-all duration-300 ease-in-out">
+                            <ProjectCard>
                                 <div className="flex items-center space-x-3">
                                     <span className="text-[#8b949e]">$</span>
                                     <code
@@ -56,7 +81,7 @@ export default function Home() {
                                 <p className="text-[#8b949e] text-sm mt-1 ml-6">
                                     {cmd.description}
                                 </p>
-                            </div>
+                            </ProjectCard>
                         </Link>
                     ))}
                 </div>
