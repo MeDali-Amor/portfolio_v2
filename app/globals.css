@@ -1,6 +1,21 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+.code-font {
+    font-family: "JetBrains Mono", monospace;
+}
 
 :root {
+    --green: #9ece6a;
+    --blue: #89ddff;
+    --purple: #bb9af7;
+    --purple-blue: #7aa2f7;
+    --gray-white: #a9b1d6;
+
+    --tag-background: #292e42;
+    --muted: #565f89;
+}
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +38,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
