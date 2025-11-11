@@ -58,7 +58,7 @@ const TerminalInput = () => {
             )}
             <form onSubmit={handleSubmit} className="flex items-center">
                 <span className="text-[#30a46c] mr-2 font-mono">
-                    medalialove@portfolio:~$
+                    DalixDev@portfolio:~$
                 </span>
                 <input
                     type="text"

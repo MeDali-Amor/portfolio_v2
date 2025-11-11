@@ -15,6 +15,12 @@
     --tag-background: #292e42;
     --muted: #565f89;
 }
+.gradient-text {
+    background: linear-gradient(135deg, #58a6ff 0%, #bc8cff 50%, #ff7b72 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 .skill-badge {
     background: rgba(48, 164, 108, 0.1);
     border: 1px solid rgba(48, 164, 108, 0.3);

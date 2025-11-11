@@ -27,25 +27,20 @@ export default function Home() {
             </div>
             <div className="flex space-x-4 mb-12">
                 <a
-                    href="#"
+                    target="_blank"
+                    href="https://github.com/MeDali-Amor"
                     className="skill-badge-blue px-4 py-2 rounded-lg text-sm inline-flex items-center space-x-2 hover:opacity-80 transition-opacity"
                 >
                     <Github size={16} />
                     <span>GitHub</span>
                 </a>
                 <a
-                    href="#"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/mohamed-ali-amor-145327146/"
                     className="skill-badge-blue px-4 py-2 rounded-lg text-sm inline-flex items-center space-x-2 hover:opacity-80 transition-opacity"
                 >
                     <span>🔗</span>
                     <span>LinkedIn</span>
-                </a>
-                <a
-                    href="#"
-                    className="skill-badge-blue px-4 py-2 rounded-lg text-sm inline-flex items-center space-x-2 hover:opacity-80 transition-opacity"
-                >
-                    <span>📺</span>
-                    <span>YouTube</span>
                 </a>
             </div>
             <div className="mb-12">
