@@ -67,7 +67,8 @@ const Skills = () => {
                                 <div className="text-[#c9d1d9] space-y-1">
                                     <div>→ React/Next.js</div>
                                     <div>→ Node.js/Express</div>
-                                    <div>→ Pythin/Django</div>
+                                    <div>→ Python/Django</div>
+                                    <div>→ Python/FastAPI</div>
                                 </div>
                             </div>
                             <div>
