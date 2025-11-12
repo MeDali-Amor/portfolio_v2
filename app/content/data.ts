@@ -1,4 +1,23 @@
-export const projects = [];
+export const projects = [
+    {
+        id: 1,
+        folder: "next-auth-temp",
+        name: "Next Auth Template",
+        links: {
+            github: "https://github.com/MeDali-Amor/next-auth-temp",
+            demo: "",
+        },
+        description:
+            "Opinionated authentication template built with Next.js (App Router), NextAuth (v5), Prisma and PostgreSQL. Implements credential + social (Google) auth, email verification, password reset, and backend two-factor authentication (2FA) flows.",
+        technologies: [
+            "Next.js",
+            "NextAuth v5",
+            "Prisma",
+            "PostgreSQL",
+            "TypeScript",
+        ],
+    },
+];
 
 export const skillCategories = [
     {

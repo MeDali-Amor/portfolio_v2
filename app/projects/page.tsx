@@ -1,8 +1,7 @@
-import Card from "../components/Card/Card";
+import { Github } from "lucide-react";
 import ProjectCard from "../components/Card/ProjectCard";
 import { projects } from "../content/data";
 import { getTechColor } from "../utils/utils";
-import { Github } from "lucide-react";
 
 const Projects = () => {
     return (
@@ -32,6 +31,7 @@ const Projects = () => {
                                         {project.links.github && (
                                             <a
                                                 href={project.links.github}
+                                                target="_blank"
                                                 className="text-[#8b949e] hover:text-[#58a6ff] transition-colors"
                                             >
                                                 <Github size={20} />
@@ -39,6 +39,7 @@ const Projects = () => {
                                         )}
                                         {project.links.demo && (
                                             <a
+                                                target="_blank"
                                                 href={project.links.demo}
                                                 className="text-[#8b949e] hover:text-[#58a6ff] transition-colors"
                                             >
